@@ -68,7 +68,7 @@ export const getServerSideProps:GetServerSideProps = async ({req,params}) =>{
      }
     return{
         props:{
-            post:{post}
+           post
         }
     }
 }
